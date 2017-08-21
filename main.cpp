@@ -30,8 +30,6 @@ int main (int argc, char **argv)
 		}
 		waitKey(30);
 		clear_screen();
-		
-		//memset(buffer,0,SSD1306_LCDHEIGHT * SSD1306_LCDWIDTH / 8);
 		for(i=0;i<64;i++)
 		{
 			for(j=0;j<128;j++)
